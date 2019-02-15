@@ -1,0 +1,23 @@
+html {
+  font-size: calc(100vw / 10)
+  /*set root em*/
+}
+
+:root {
+  --main-color: #ff2741;
+}
+
+/*set vant icon*/
+@font-face {
+  font-family: 'iconfont';  /* project id 1030624 */
+  src: url('//at.alicdn.com/t/font_1030624_tbh1y0w2d1d.eot');
+  src: url('//at.alicdn.com/t/font_1030624_tbh1y0w2d1d.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1030624_tbh1y0w2d1d.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1030624_tbh1y0w2d1d.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1030624_tbh1y0w2d1d.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1030624_tbh1y0w2d1d.svg#iconfont') format('svg');
+}
+.my-icon {
+  font-family: 'iconfont';
+  font-style: normal;
+}
